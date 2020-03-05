@@ -1,0 +1,23 @@
+.main-Container{
+    margin: 35px 100px 0px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.restas{
+    width: 300px;
+    height: 200px;
+    margin-left: 0;
+}
+.restaurant-01{
+    padding: 70px 0px 0px 0px;
+    border-bottom: 1px solid grey;
+    width : 300px;
+}
+.distance{
+    padding: 5px 0px 10px 0px;
+}
+.feedback{
+    float: right;
+    margin-bottom: 30px;
+}

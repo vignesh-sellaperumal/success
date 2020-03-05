@@ -1,0 +1,14 @@
+#submit{
+    background-color: red;
+    border: none;
+    color:white;
+    width: 295px;
+    height: 45px;
+}
+.add{
+    float:right;
+    width: 80px;
+    background-color:white;
+    height: 25px;
+    border: 1px solid gray;
+}
