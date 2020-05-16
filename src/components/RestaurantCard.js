@@ -7,7 +7,7 @@ class RestaurantCard extends React.Component{
     }
     render(){
         return(
-            <div onClick={() => this.props.navigation.push("/order/"+this.props.restaurant.id)}>
+            <div onClick={() => this.props.navigation.push("/order/"+this.props.name+"/"+this.props.restaurant.id)}>
                 <div class="restaurant-01" >
                     <img src={this.props.restaurant.imageURL} alt="Restaurant 01" class="restas"/>
                     <h1>{this.props.restaurant.restaurantName}</h1>

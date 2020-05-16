@@ -14,7 +14,7 @@ class HeaderComponent extends React.Component{
                         <img src={logo} alt="Logo" id="white"/>
                     </div>
                     <div class="top-two">
-                        <h3>Hello, {this.props.userName} </h3>
+                        <h3>Hello, {this.props.userName} :) </h3>
                     </div>
                 </div>
             </div>

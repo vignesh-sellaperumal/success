@@ -4,6 +4,7 @@
     color:white;
     width: 295px;
     height: 45px;
+    cursor: pointer;
 }
 .add{
     float:right;

@@ -62,7 +62,7 @@
 .second-container{
     background-color: rgb(235, 235, 225);
     width:500px;
-    height: 575px;
+    height: 1060px;
 }
 .calculation{
     width: 20px;
@@ -71,7 +71,7 @@
     border: 1px solid grey;
 }
 .second-sub1{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid grey;
     margin: 0px 30px;
 }
 .second-sub2{

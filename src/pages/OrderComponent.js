@@ -11,6 +11,7 @@ class OrderComponent extends React.Component{
     constructor(){
         super();
         this.state = {
+            userName: '',
             menuLists : [],
             cartLists : [],
             arrayCartItems : [],
@@ -19,6 +20,7 @@ class OrderComponent extends React.Component{
         }
     }
     componentWillMount(){
+        this.setState({userName: this.props.match.params.username});
         this.setState({
             menuLists : RestaurantServices.readMenuJSONFile(this.props.match.params.id)
         });
@@ -101,7 +103,7 @@ class OrderComponent extends React.Component{
     render(){
         return(    
         <div>
-            <HeaderComponent userName="vicky!" />
+            <HeaderComponent userName={this.state.userName} />
             <div class="main-container">
                 <div class="first-container">
                     <div class="first-sub1">
@@ -123,6 +125,7 @@ class OrderComponent extends React.Component{
                     <h3 id="cart-title">My Cart</h3>
                     </div>
                     {this.printCart()}
+                    
                     <div class="second-sub2">
                         <h5 class="total2">Sub Total<span class="sub-total">Rs.{this.state.total}</span></h5>
                         <h5 class="total">Delivery Charges<span className="sub2">45</span></h5>

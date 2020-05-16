@@ -41,3 +41,14 @@
     width: 270px;
     margin: 5px;
 }
+#signup-text{
+    margin-top: 40px;
+    margin-left: 60px;
+    font-weight: 700;
+}
+#signup{
+    font-weight: 900;
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(252, 9, 9);
+}
