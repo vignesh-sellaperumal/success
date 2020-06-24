@@ -34,7 +34,7 @@ class SignupComponent extends React.Component{
     }
     redirectToLogin = () => {
         axios.post(
-            'http://localhost:5000/users/add',
+            'http:/localhost:5000/users/add',
             { username: this.state.username,
               emailid: this.state.emailid,
               address: this.state.address,
